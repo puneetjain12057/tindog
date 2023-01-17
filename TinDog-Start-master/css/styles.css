@@ -1,0 +1,134 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    color: #fff;
+    background-color: #ff4c68;
+    height: 60%;
+}
+h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3em;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 16%;
+    margin-left: 80px;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features{
+text-align: center;
+padding: 7% 15%;
+position: relative;
+background-color: #fff;
+z-index: 1;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-head{
+font-family: 'Montserrat-Bold';
+font-size: 1.5rem;
+}
+.feature-box{
+    padding: 5%;
+}
+
+
+.icon:hover{
+    color: #ff4c68
+}
+
+#testimonials{
+background-color: #ef8172;
+padding: 7% 15%;
+text-align: center;
+color: #fff;
+}
+h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    background-color: #fff;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+        width: 60%;
+
+    } 
+}
+
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+    height: 60%;
+    text-align: center;
+    padding-top: 50px
+}
+h3{
+font-family: 'Montserrat-Black';
+font-size: 3em;
+line-height: 1.5;
+
+}
+#footer{
+text-align: center;
+padding: 4% 15%;
+}
+.copyright{
+    font-size: 10px;
+    margin-top: 5px;
+}
